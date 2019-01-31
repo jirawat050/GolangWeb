@@ -8,6 +8,7 @@ type IndexData struct {
 	List []*model.News
 }
 
+
 func Index(w http.ResponseWriter, data *IndexData) {
 	render(tpIndex, w, data)
 }
